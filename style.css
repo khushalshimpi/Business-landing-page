@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/******************* Nav Section **********************/
+
+.navSection {
+    background-color: #758283;
+    padding: 30px 100px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 400px;
+}
+
+.navSection .logo {
+    width: 120px;
+}
+
+.navRight {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.navRight a {
+    color: #ffffff;
+}
+
+.navbtn {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 1px solid #adb2b2;
+}
+
+.navbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.navImg {
+    width: 25vw;
+    border-radius: 5px;
+}
+
+.navText {
+    width: 40vw;
+    color: #ffffff;
+}
+
+.navText > h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.navText > p {
+    width: 80%;
+    margin: 40px 0;
+}
+
+.emailBox {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 15px;
+}
+
+.emailBox > input {
+    border: none;
+    width: 60%;
+    padding-left: 8px;
+    outline: none;
+}
+
+.emailBox > input::placeholder {
+    color: #9ca0a0;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.emailBtn {
+    background-color: #89c0a3;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/******************* Hero Section **********************/
+
+.heroSection {
+    padding: 80px 150px;
+}
+
+.heroSection > h3 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: end;
+    padding: 40px 0 70px 0;
+}
+
+.stats h2 {
+    font-size: 44px;
+}
+
+.heroSection img {
+    width: 100%;
+}
+
+/******************* Card Section **********************/
+
+.cardSection {
+    padding: 50px 150px;
+}
+
+.cardSection h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.cardText {
+    margin-right: 40px;
+} 
+
+.cardText > h4 {
+    font-size: 34px;
+}
+
+.cardText > p {
+    color: #758283;
+    margin: 25px 0;
+    width: 70%;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.middle {
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+.card > img {
+    width: 45%;
+}
+
+.cardBtn {
+    background-color: #89c0a3;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/******************* Team Section **********************/
+
+.teamsSection {
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teamsSection > .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.teamsSection > .text > h3 {
+    font-size: 40px;
+}
+
+.teamsSection > .text > p {
+    font-size: 18px;
+    color: #758283;
+    line-height: 30px;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.member > img {
+    width: 350px;
+    height: 500px;
+}
+
+.member h5 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.member p {
+    color: #758283;
+    font-size: 15px;
+}
+
+.teamBtn {
+    margin: auto;
+    display: block;
+    margin: 60px auto 40px auto;
+    background-color: #89c0a3;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/******************* Footer Section **********************/
+
+footer {
+    padding: 50px 150px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #4c4f4f;
+    padding-bottom: 50px;
+}
+
+.footerTop > img{
+    width: 120px;
+}
+
+.social > img {
+    padding: 15px;
+    background-color: #2e3030;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.fLink > h5 {
+    font-size: 17px;
+}
+
+.fLink > p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #9ca0a0;
+}
